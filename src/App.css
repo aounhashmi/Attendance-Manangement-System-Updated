@@ -1,0 +1,332 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.LoginDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #e1e3eb;
+}
+.sub-main {
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  width: 35%;
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  padding-top: 30px;
+  border-radius: 60px;
+  background-color: white;
+}
+.imgs {
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+.container-image {
+  background-color: rgb(223, 221, 221);
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 115px;
+  width: 115px;
+}
+.profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 130px;
+}
+
+.main input {
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 25px 0px #888;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.email {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+}
+
+.name {
+  padding-left: 70px;
+  font-size: 20px;
+}
+.second-input {
+  padding-top: 20px;
+}
+
+button {
+  width: 380px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #b103fc;
+  color: white;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+.login-button {
+  padding-top: 25px;
+}
+
+.link {
+  font-size: 25px;
+  font-weight: 400;
+}
+a {
+  color: blue;
+}
+.submitBtn {
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.sidebar {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo {
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+.icon,
+.link_text {
+  font-size: 20px;
+}
+.selectDate {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.viewAttendance {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.saveBtn {
+  color: white;
+  background-color: #2563eb;
+  font-size: 26px;
+  margin: 2rem;
+  /* padding: 0.5rem; */
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  border-radius: 20%;
+}
+.btnDiv {
+  float: right;
+}
+.dateCalendar {
+  padding: 0.5rem;
+}
+.img-logo {
+  height: 50px;
+  width: 50px;
+}
+.heading {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.sidebar {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo {
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+.icon,
+.link_text {
+  font-size: 20px;
+}
+.selectDate {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.viewAttendance {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.btnDiv {
+  float: right;
+  margin-top: 2rem;
+  /* cursor: pointer; */
+}
+.dateCalendar {
+  padding: 0.5rem;
+}
+.img-logo {
+  height: 50px;
+  width: 50px;
+}
+.heading {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.heading {
+  padding-top: 2rem;
+}
+
+ul {
+  margin: 0;
+}
+
+span {
+  font-size: 2rem;
+  color: #777;
+}
+
+.dropzone {
+  text-align: center;
+  padding: 20px;
+  border: 3px dashed #eeeeee;
+  background-color: #fafafa;
+  color: #bdbdbd;
+
+  margin-bottom: 20px;
+}
+
+.accept {
+  border-color: #107c10 !important;
+}
+
+.reject {
+  border-color: #d83b01 !important;
+}
